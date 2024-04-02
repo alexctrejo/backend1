@@ -9,5 +9,4 @@ app.use(express.urlencoded({extended: false}));
 //routes
 app.use(require('./routes/index'));
 
-
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
